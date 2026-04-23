@@ -1,0 +1,18 @@
+digraph Automaton {
+  rankdir=LR;
+  node [shape=circle];
+  node [shape=doublecircle] "q3";
+  init -> "q0" [label=" "];
+"q0" -> "q1" [label="a"];
+"q6" -> "q7" [label="b"];
+"q8" -> "q9" [label="c"];
+"q4" -> "q6" [label="epsilon"];
+"q4" -> "q8" [label="epsilon"];
+"q7" -> "q5" [label="epsilon"];
+"q9" -> "q5" [label="epsilon"];
+"q2" -> "q4" [label="epsilon"];
+"q5" -> "q4" [label="epsilon"];
+"q5" -> "q3" [label="epsilon"];
+"q1" -> "q2" [label="epsilon"];
+
+}

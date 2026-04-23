@@ -1,0 +1,67 @@
+alphabet:
+- '0'
+- '1'
+final_states:
+- q9
+initial_state: q0
+states:
+- q0
+- q1
+- q2
+- q3
+- q4
+- q5
+- q6
+- q7
+- q8
+- q9
+transitions:
+- from: q4
+  symbol: '0'
+  to:
+  - q5
+- from: q6
+  symbol: '1'
+  to:
+  - q7
+- from: q2
+  symbol: epsilon
+  to:
+  - q4
+- from: q2
+  symbol: epsilon
+  to:
+  - q6
+- from: q5
+  symbol: epsilon
+  to:
+  - q3
+- from: q7
+  symbol: epsilon
+  to:
+  - q3
+- from: q0
+  symbol: epsilon
+  to:
+  - q2
+- from: q0
+  symbol: epsilon
+  to:
+  - q1
+- from: q3
+  symbol: epsilon
+  to:
+  - q2
+- from: q3
+  symbol: epsilon
+  to:
+  - q1
+- from: q8
+  symbol: '1'
+  to:
+  - q9
+- from: q1
+  symbol: epsilon
+  to:
+  - q8
+type: nfae
