@@ -18,7 +18,9 @@ Projeto de laboratório para a disciplina de Teoria da Computação.
 - `data/saida_nfa.yaml` — resultado da conversão NFAɛ → NFA.
 - `data/saida_dfa.yaml` — resultado da conversão NFA → DFA.
 - `docs/ATIVIDADE_LINGUAGENS_REGULARES.md` — enunciado da atividade.
-- `docs/Player Puzzles.md` — link do puzzle criado e referência da parte 3.
+- `docs/RELATORIO_PARTE2.md` — relatório da Parte 2 com regex, conversão para NFAɛ e saídas geradas.
+- `docs/Player Puzzles.md` — link do regex crossword autoral e comprovante da parte 3.
+- `puzzles_resolvidos/` — capturas das telas dos exercícios resolvidos no Regex Crossword.
 
 ## Como executar
 
@@ -40,5 +42,6 @@ Saídas geradas em:
 ## Observações
 
 - A parte 1 está implementada com a conversão completa de NFAɛ → NFA → DFA.
+- A parte 2 implementa conversão de expressões regulares para NFAɛ com parser de regex e geração de saídas em `data/` e `outputs/visualizations/`.
 - A parte 3 está registrada em `docs/Player Puzzles.md` e as imagens estão em `puzzles_resolvidos/`.
 
